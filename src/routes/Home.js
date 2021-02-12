@@ -15,7 +15,7 @@ const Home = () => {
     const { loading } = useQuery(GET_MOVIES); 
     return (
         <div>
-          !  
+          {loading}  
         </div>
     )
 }
